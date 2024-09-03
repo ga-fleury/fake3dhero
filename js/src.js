@@ -35,7 +35,7 @@ void main() {
   gl_FragColor = texture2D(image0,mirrored(fake3d));
 }`
 
-export default class Sketch {
+class Sketch {
   constructor() {
     this.container = document.getElementById('gl');
     this.canvas = document.createElement('canvas');
